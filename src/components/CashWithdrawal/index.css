@@ -1,0 +1,77 @@
+.mainContainer {
+  background-color: white;
+  padding: 30px;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subContainer {
+  background-color: black;
+  border-radius: 20px;
+  background-size: cover;
+  height: 70vh;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameLetter {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  padding-left: 18px;
+  padding-right: 20px;
+  padding-top: 3px;
+  margin-left: 20px;
+  color: #7c3aed;
+  background-color: #c7d2fe;
+}
+
+.name {
+  margin: 35px;
+  color: #d4d2db;
+}
+
+.balanceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.balanceName {
+  color: #7c3aed;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.balance {
+  color: white;
+}
+
+.inRupees {
+  color: #7c3aed;
+  font-size: 20px;
+}
+
+.rupeesContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.withdrawContainer {
+  margin: 20px;
+}
+.withdrawName {
+  color: white;
+}
+
+.unorderedList {
+  display: flex;
+  flex-direction: row;
+}
